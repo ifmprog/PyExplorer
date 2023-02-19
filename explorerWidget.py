@@ -20,6 +20,8 @@ class ExplorerWidget(QWidget):
         self.__initUI()
 
     def __initUI(self):
+        """UI初期化"""
+
         """開くボタン"""
         self.__openButton = QPushButton("Open")
         self.__openButton.clicked.connect(self.__openRootSelector)
